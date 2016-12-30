@@ -39,8 +39,9 @@ kubectl create -f kafka-services.yaml
 ```
 kubectl create -f kafka-cluster.yaml
 ```
+------
 
-# instructions for a kafka cli
+# Instructions for a Kafka CLI
 
 find a kafka pod and exec bash inside - you then have all the kafka scripts in
 an env that can find the brokers and zookeepers via service disco
