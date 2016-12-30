@@ -7,7 +7,7 @@ Created from combining parts of [ramhiser/kafka-kubernetes](https://github.com/r
 * Uses RC for kafka and Deployment for zk.  todo: Deployment for kafka
 * Does not configure disk, replacing more than n-1 of your replication factor will loose data. todo: StatefulSets in 1.5
 
-###DO THIS
+###START HERE
 ```
 kubectl create -f zookeeper-services.yaml
 kubectl create -f zookeeper-cluster.yaml
