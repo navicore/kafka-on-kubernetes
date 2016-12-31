@@ -36,7 +36,7 @@ spec:
               value: "kafka-1"
             - name: ZOOKEEPER_CONNECT
               value: "zoo1:2181,zoo2:2181,zoo3:2181"
-            - name: ZOOKEEPER_RETENTION_HOURS
+            - name: RETENTION_HOURS
               value: "72"
           ports:
             - containerPort: 9092
@@ -84,7 +84,7 @@ spec:
               value: "kafka-2"
             - name: ZOOKEEPER_CONNECT
               value: "zoo1:2181,zoo2:2181,zoo3:2181"
-            - name: ZOOKEEPER_RETENTION_HOURS
+            - name: RETENTION_HOURS
               value: "72"
           ports:
             - containerPort: 9092
@@ -132,7 +132,7 @@ spec:
               value: "kafka-3"
             - name: ZOOKEEPER_CONNECT
               value: "zoo1:2181,zoo2:2181,zoo3:2181"
-            - name: ZOOKEEPER_RETENTION_HOURS
+            - name: RETENTION_HOURS
               value: "72"
           ports:
             - containerPort: 9092
