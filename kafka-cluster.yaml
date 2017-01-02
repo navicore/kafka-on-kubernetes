@@ -40,6 +40,7 @@ spec:
               value: "72"
           ports:
             - containerPort: 9092
+              name: broker
           volumeMounts:
             - mountPath: /data
               name: data
@@ -88,6 +89,7 @@ spec:
               value: "72"
           ports:
             - containerPort: 9092
+              name: broker
           volumeMounts:
             - mountPath: /data
               name: data
@@ -136,6 +138,7 @@ spec:
               value: "72"
           ports:
             - containerPort: 9092
+              name: broker
           volumeMounts:
             - mountPath: /data
               name: data
