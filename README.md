@@ -46,7 +46,7 @@ kubectl create -f kafka-cluster.yaml
 find a kafka pod and exec bash inside - you then have all the kafka scripts in
 an env that can find the brokers and zookeepers via service disco
 ```
-exec <KAFKA POD NAME> -i -t -- bash -il
+kubectl exec <KAFKA POD NAME> -i -t -- bash -il
 cd /kafka/bin
 ls
 ```
